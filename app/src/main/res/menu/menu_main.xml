@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/inbox_icon"
+            android:title="@string/inbox" />
+
+        <item
+            android:id="@+id/nav_outbox"
+            android:icon="@drawable/send_icon"
+            android:title="@string/outbox" />
+
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/trash_icon"
+            android:title="@string/trash" />
+
+        <item
+            android:id="@+id/nav_spam"
+            android:icon="@drawable/spam_icon"
+            android:title="@string/spam" />
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="@string/profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_inbox"
+                    android:title="@string/logout" />
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/star_icon"
+                android:title="@string/rate" />
+
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/about_us_icon"
+                android:title="@string/about_us" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
