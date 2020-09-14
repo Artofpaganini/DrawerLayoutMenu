@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="@dimen/header_height"
     android:background="@android:color/holo_blue_bright"
     android:gravity="bottom"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="@dimen/padding_header">
 
     <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="@dimen/header_image_view_size_width"
+        android:layout_height="@dimen/header_image_view_size_height"
         android:src="@drawable/account_box_icon" />
 
     <TextView
@@ -17,16 +17,14 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo"
         android:text="Some email menu"
-        android:textSize="24sp" />
+        android:textSize="@dimen/text_size_text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/baloo"
         android:text="@string/mail"
-        android:textSize="14dp" />
-
-
+        android:textSize="@dimen/text_size_email" />
 
 
 </LinearLayout>

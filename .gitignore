@@ -134,3 +134,4 @@ fabric.properties
 app/proguard-rules.pro
 gradlew
 gradlew.bat
+gradle.properties
