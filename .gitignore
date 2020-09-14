@@ -133,4 +133,4 @@ fabric.properties
 
 app/proguard-rules.pro
 gradlew
-gradkew.bat
+gradlew.bat
