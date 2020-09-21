@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_toolbar_width">0dp</dimen>
+    <dimen name="text_size_text">20dp</dimen>
+    <dimen name="text_size_email">14dp</dimen>
+    <dimen name="padding_header">20dp</dimen>
+    <dimen name="header_height">200dp</dimen>
+    <dimen name="header_image_view_size_width">75dp</dimen>
+    <dimen name="header_image_view_size_height">75dp</dimen>
+
+</resources>
